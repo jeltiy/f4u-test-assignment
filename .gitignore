@@ -1,0 +1,28 @@
+.idea
+app/node_modules
+app/storage/*.key
+app/vendor
+app/build
+app/.phpunit.result.cache
+app/phpunit.xml
+app/Homestead.json
+app/Homestead.yaml
+app/npm-debug.log
+app/yarn-error.log
+
+# Cache, session files and logs (Symfony3)
+app/var/cache/*
+app/var/logs/*
+app/var/sessions/*
+!app/var/cache/.gitkeep
+!app/var/logs/.gitkeep
+!app/var/sessions/.gitkeep
+
+# Managed by Composer
+app/bootstrap.php.cache
+app/var/bootstrap.php.cache
+app/public/bundles/
+app/public/uploads/
+
+# Embedded web-server pid file
+app/.web-server-pid
